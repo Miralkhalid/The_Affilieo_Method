@@ -2,7 +2,7 @@
   "sitemap.xml": {
     "Protocol": "https",
     "DomainName": "miralkhalid.github.io/The_Affilieo_Method",
-    "Root": "The_Affilieo_Method",
+    "Root": "",
     "IncludeExt": [
       ".html",
       ".php"
