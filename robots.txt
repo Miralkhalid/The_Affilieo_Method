@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://miralkhalid.github.io/The_Affilieo_Method/sitemap.xml
