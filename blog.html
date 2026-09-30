@@ -55,7 +55,7 @@
     ========================= */
 
     .blogs-section {
-      max-width: var(--max);
+      max-width: 100%;
       margin: 0 auto;
       padding: 70px 24px 90px;
     }
@@ -94,12 +94,19 @@
     .blogs-grid {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 30px;
+      gap: 20px;
+      width: 70%;
+      /* align-items: center; */
+      /* align-content: center; */
+      height: 40%;
     }
 
     .blog-card {
       display: block;
+      align-items: center;
+      /* margin-left: 30%; */
       overflow: hidden;
+      /* width: 60%; */
       background: var(--white);
       border: 1px solid var(--border);
       border-radius: 18px;
@@ -126,7 +133,7 @@
     }
 
     .blog-card-content {
-      padding: 28px;
+      padding: 20px;
     }
 
     .blog-category {
@@ -140,12 +147,13 @@
     .blog-card h2 {
       margin: 10px 0 12px;
       font-family: "Fraunces", serif;
-      font-size: clamp(1.55rem, 3vw, 2rem);
+      font-size: 18px;
       line-height: 1.2;
     }
 
     .blog-card p {
       margin: 0 0 20px;
+      font-size: 10px;
       color: var(--text-soft);
     }
 
